@@ -1,6 +1,6 @@
 # pycaster
 a python project using numpy, numba and pygame by FishSnacks
-open this and run it in visual studio 2022 (have python plugin installed as well) so it will work
+open this and run it in visual studio 2022 (have python development plugin installed as well) so it will work
 
 # screenshots/gallery
 <img width="547" height="294" alt="image" src="https://github.com/user-attachments/assets/b6f503b4-c609-47b0-a81a-2aa074720bec" />
