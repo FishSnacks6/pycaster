@@ -1,6 +1,6 @@
 # pycaster
 a python project using numpy, numba and pygame by FishSnacks
-
+# how to open the project
 open this and run it in visual studio 2022 (have python development plugin installed as well) so it will work
 
 # screenshots/gallery
