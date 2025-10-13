@@ -38,12 +38,18 @@ def floorCast():
 def movement(posx, posy, rot, keys): 
     if keys[pygame.K_LEFT] or keys[ord('a')]:
         rot = rot - 0.1
+        print("py_caster.input[K_LEFT]")
+        print("cam.rot[LEFT]")
     if keys[pygame.K_RIGHT] or keys[ord('d')]:
         rot = rot + 0.1
+        print("py_caster.input[K_RIGHT]")
+        print("cam.rot[RIGHT]")
     if keys[pygame.K_UP] or keys[ord('w')]:
         posx, posy = posx + numpy.cos(rot)*0.5, posy + numpy.sin(rot)*0.5
+        print("py_caster.input[K_UP]")
     if keys[pygame.K_DOWN] or keys[ord('s')]:
         posx, posy = posx - numpy.cos(rot)*0.5, posy - numpy.sin(rot)*0.5
+        print("py_caster.input[K_DOWN]")
     return posx, posy, rot
 def new_frame(posx, posy, rot, frame, hres, halfvres, mod, maph, size):
     for i in range(hres):
@@ -63,4 +69,5 @@ def new_frame(posx, posy, rot, frame, hres, halfvres, mod, maph, size):
 if __name__ == "__main__":
     floorCast()
     pygame.quit()      
+
 
